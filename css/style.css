@@ -99,6 +99,26 @@ a {
   margin-left: 10px;
   vertical-align: text-bottom;
 }
+.pre-order {
+  background: black;
+}
+.e-mail {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 21px;
+  line-height: 140%;
+  color: #ffffff;
+}
+.submit {
+  padding: 11px 26px;
+  border-radius: 6px;
+  border: none;
+  font-size: 16px;
+  line-height: 140%;
+  background: #ea6e20;
+  color: white;
+  cursor: pointer;
+}
 @media (max-width: 768px) {
   .app {
     height: auto;

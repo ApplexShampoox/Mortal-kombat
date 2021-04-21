@@ -33,10 +33,18 @@
         <!-- /.tags -->
         <p class="description">Продолжение легендарного фильма из 90-х. Предстоит по-настоящему смертельная битва, где останется только сильнейший</p>
       <div class="button-group">
-        <button class="button button-primary">Предзаказ фильма</button>
+          <div style="display: none;" id="pre-order" class="pre-order">
+            <form>
+              <p class="e-mail"><b>Ваш e-mail:</b><br>
+                <input type="email" size="40">
+              </p>
+              <button class="submit">Подписаться</button>
+            </form>
+          </div>
+        <a data-fancybox data-src="#pre-order" href="javascript:;" class="button button-primary">Предзаказ фильма</a>
         <a data-fancybox href="https://www.youtube.com/watch?v=1ar_V1_uatA" class="button button-default">
            <img src="img/play.svg" alt="icon: play" class="button-icon">
-            <span class="button-text">Смотреть трейлер</span>
+           <span class="button-text">Смотреть трейлер</span>
         </a>
       </div>
     <!--/.button-group-->
